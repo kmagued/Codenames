@@ -1,28 +1,24 @@
 {
   "expo": {
-    "name": "app",
-    "slug": "app",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "name": "Codenames",
+    "slug": "codenames",
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/yo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/giphy-2.gif",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
-    }
+      "bundleIdentifier": "com.kmagued.codenames",
+      "buildNumber": "1.0.0"
+    },
+    "description": ""
   }
 }
